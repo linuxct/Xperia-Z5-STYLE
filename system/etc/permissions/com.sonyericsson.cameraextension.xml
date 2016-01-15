@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <library name="com.sonyericsson.cameraextension.api"
+        file="/system/framework/com.sonyericsson.cameraextension_impl.jar"/>
+    <library name="com.sonyericsson.cameraextension.api_4"
+        file="/system/framework/com.sonyericsson.cameraextension_impl.jar"/>
+    <library name="com.sonyericsson.cameraextension.api_5"
+        file="/system/framework/com.sonyericsson.cameraextension_impl.jar"/>
+    <library name="com.sonyericsson.cameraextension.api_6"
+        file="/system/framework/com.sonyericsson.cameraextension_impl.jar"/>
+    <library name="com.sonyericsson.cameraextension.api_7"
+        file="/system/framework/com.sonyericsson.cameraextension_impl.jar"/>
+</permissions>
