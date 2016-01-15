@@ -1,0 +1,49 @@
+#ASSERT
+assert(getprop("ro.product.device") == "D2303" || getprop("ro.build.product") == "D2303" ||
+	getprop("ro.product.device") == "eagle" || getprop("ro.build.product") == "eagle" ||
+	getprop("ro.product.device") == "D2302" || getprop("ro.build.product") == "D2302" ||
+	getprop("ro.product.device") == "D2305" || getprop("ro.build.product") == "D2305" ||
+	getprop("ro.product.device") == "D2306" || getprop("ro.build.product") == "D2306" ||
+	getprop("ro.product.device") == "D2403" || getprop("ro.build.product") == "D2403" ||
+	getprop("ro.product.device") == "D2406" || getprop("ro.build.product") == "D2406" ||
+	getprop("ro.product.device") == "XPERIA M2" || getprop("ro.build.product") == "XPERIA M2" ||
+	abort("This package is for \"D2303,eagle,D2302,D2305,D2306,D2403,D2406\" devices; this is a \"" + getprop("ro.product.device") + "\"."););
+unmount("/system");
+unmount("/data");
+show_progress(1.000000, 0);
+ui_print("");
+ui_print("");
+ui_print("Z5 S.T.Y.L.E. Installer");
+ui_print("");
+ui_print("");
+ui_print("Please REMEMBER TO WIPE DATA at the end!");
+ui_print("");
+ui_print("Mounting System");
+mount("ext4", "EMMC", "/dev/block/platform/msm_sdcc.1/by-name/system", "/system");
+set_progress(0.200000);
+ui_print("Cleaning up");
+ui_print("");
+delete_recursive("/system/app");
+delete_recursive("/system/framework");
+delete_recursive("/system/priv-app");
+delete_recursive("/system/vendor/app");
+delete_recursive("/system/media");
+set_progress(0.400000);
+ui_print("Extracting system...");
+ui_print("");
+package_extract_dir("system", "/system");
+set_progress(0.700000);
+ui_print("Setting Permissions...");
+ui_print("");
+#PERM
+set_perm_recursive(0, 0, 0755, 0644, "/system/app");
+set_perm_recursive(0, 0, 0755, 0644, "/system/framework");
+set_perm_recursive(0, 0, 0755, 0644, "/system/priv-app");
+set_perm_recursive(0, 0, 0755, 0644, "/system/media");
+set_progress(0.900000);
+unmount("/system");
+set_progress(1.000000);
+ui_print("All Done!");
+ui_print("Don't forget to hit the thanks button :)");
+ui_print("And please REMEMBER TO WIPE DATA!");
+ui_print("Z5 S.T.Y.L.E. Installed");
