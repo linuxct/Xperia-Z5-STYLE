@@ -336,3 +336,34 @@ ro.drm.active.4=ckb,1
 ro.drm.active.5=widevine,1
 ro.drm.active.6=dcp,1
 ro.sony.fota.encrypteddata=supported
+
+# add new tweaks #
+ro.HOME_APP_ADJ=1
+power_supply.wakeup=enable
+pm.sleep_mode=1
+wifi.supplicant_scan_interval=180
+windowsmgr.max_events_per_sec=500
+ro.min_pointer_dur=8
+
+### FPs Stabilizer
+debug.sf.showupdates=0
+debug.sf.showcpu=0
+debug.sf.showbackground=0
+debug.sf.showfps=0
+
+### Hardware Acceleration
+video.accelerate.hw=1
+debug.performance.tuning=1
+debug.hwui.render_dirty_regions=false
+
+# ART tweaks
+dalvik.vm.dex2oat-thread_count=4
+dalvik.vm.dex2oat-flags "everything"
+dalvik.vm.image-dex2oat-flags "everything"
+dalvik.vm.image-dex2oat-filter=everything
+dalvik.vm.dex2oat-filter=everything
+
+ro.service.swiqi3.supported=true
+persist.service.swiqi3.enable=1
+ro.service.xrfm.supported=true
+persist.service.xrfm.mode=1

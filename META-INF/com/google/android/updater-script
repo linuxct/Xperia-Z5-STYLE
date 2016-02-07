@@ -29,7 +29,9 @@ ui_print("    ____) |  | |     | |  | |____| |____     ");
 ui_print("   |_____/   |_|     |_|  |______|______|    ");
 ui_print("                                             ");
 ui_print("=============================================");
-ui_print("      BETA 3 - 4.5b3 - 26 FEBRUARY 2015      ");
+ui_print("        The limit is your imagination.       ");
+ui_print("=============================================");
+ui_print("      BETA 3 - 4.5b3 - 08 FEBRUARY 2016      ");
 ui_print("=============================================");
 ui_print("");
 ui_print("");
@@ -40,6 +42,7 @@ set_progress(0.100000);
 ui_print("Cleaning up App, Framework and Media");
 ui_print("");
 delete_recursive("/system/app");
+delete_recursive("/system/etc/product/applications/facebook-hdpi");
 delete_recursive("/system/framework");
 delete_recursive("/system/priv-app");
 delete_recursive("/system/vendor/app");
@@ -63,12 +66,13 @@ set_perm(0, 0, 0755, "/tmp/buildprop.sh");
 package_extract_dir("common/buildprop", "/tmp/buildprop");
 run_program("/tmp/buildprop.sh");
 ui_print("");
-ui_print("Now I'll install for you: ");
+ui_print("=============================================");
+ui_print("Now we will install for you: ");
 ui_print("MultiRecovery, SuperSU, RIC disabler");
 ui_print("Please... BE PATIENT!");
+ui_print("=============================================");
 ###MR08
 ui_print(" - Installing MultiRecovery 0.8 - ");
-ui_print("Replacing stock script...");
 package_extract_file("common/chargemon", "/tmp/chargemon");
 package_extract_file("common/script.sh", "/tmp/script.sh");
 package_extract_file("common/copybinary.sh", "/tmp/copybinary.sh");
@@ -77,32 +81,25 @@ set_perm(0, 0, 0755, "/tmp/script.sh");
 set_perm(0, 0, 0755, "/tmp/copybinary.sh");
 assert(run_program("/tmp/copybinary.sh") == "0");
 set_progress(0.600000);
-ui_print("Extracting MultiRecovery files to system...");
 package_extract_file("common/mr08/bin/cwm.cpio", "/system/bin/cwm.cpio");
 package_extract_file("common/mr08/bin/philz.cpio", "/system/bin/philz.cpio");
 package_extract_file("common/mr08/bin/twrp.cpio", "/system/bin/twrp.cpio");
 package_extract_file("common/mr08/bin/recovery.sh", "/system/bin/recovery.sh");
 package_extract_file("common/mr08/xbin/busybox", "/system/xbin/busybox");
 set_progress(0.700000);
-ui_print("Preparing Byeselinux support");
 package_extract_file("common/byeselinux.sh", "/tmp/byeselinux.sh");
 package_extract_file("common/byeselinux.ko", "/tmp/byeselinux.ko");
 package_extract_file("common/modulecrcpatch", "/tmp/modulecrcpatch");
 set_perm(0, 0, 0755, "/tmp/byeselinux.sh");
 set_perm(0, 0, 0755, "/tmp/modulecrcpatch");
 run_program("/tmp/byeselinux.sh");
-ui_print("Correcting file permissions...");
 set_perm(0, 2000, 0644, "/system/bin/twrp.cpio");
 set_perm(0, 2000, 0644, "/system/bin/philz.cpio");
 set_perm(0, 2000, 0644, "/system/bin/cwm.cpio");
 set_perm(0, 2000, 0755, "/system/bin/recovery.sh");
 set_perm(0, 2000, 0755, "/system/xbin/busybox");
-#package_extract_file("common/mrota.sh", "/tmp/mrota.sh");
-#set_perm(0, 0, 0755, "/tmp/mrota.sh");
-#run_program("/tmp/mrota.sh");
 ###RIC
 ui_print(" - Installing RIC Disabler - ");
-ui_print("Extracting files...");
 package_extract_file("common/modulecrcpatch", "/tmp/modulecrcpatch");
 package_extract_file("common/installmount.sh", "/tmp/installmount.sh");
 package_extract_file("common/wp_mod.ko", "/tmp/wp_mod.ko");
@@ -110,40 +107,34 @@ set_perm(0, 0, 0755, "/tmp/modulecrcpatch");
 set_perm(0, 0, 0755, "/tmp/installmount.sh");
 set_perm(0, 0, 0644, "/tmp/wp_mod.ko");
 set_progress(0.800000);
-#Below lines should be in MultiRecovery installation place but since it's useful for some so it's also installed
-#now to patch the RIC
-set_progress(0.850000);
-ui_print("Patching kernel module");
 if
 	run_program("/tmp/busybox", "ls", "/system/lib/modules/scsi_wait_scan.ko") != "0"
 then
         abort("Error finding scsi module");
 else
-	set_progress(0.900000);
+	set_progress(0.850000);
 	if
 		#todo: dynamically check for kernel modules to read crc
 		run_program("/tmp/modulecrcpatch", "/system/lib/modules/scsi_wait_scan.ko", "/tmp/wp_mod.ko") != "0"
 	then
 		abort("Error patching kernel module");
 	else
-		set_progress(0.600000);
 		run_program("/tmp/busybox", "cp", "/tmp/wp_mod.ko", "/system/lib/modules/wp_mod.ko");
-        set_perm(0, 2000, 0644, "/system/lib/modules/wp_mod.ko");
-		set_progress(0.700000);		
+        set_perm(0, 2000, 0644, "/system/lib/modules/wp_mod.ko");		
 		assert(run_program("/tmp/installmount.sh") == "0");
-		set_progress(0.800000);
 	endif;
 endif;
-set_progress(0.950000);
+set_progress(0.900000);
 ###SuperSU
 ui_print(" - Installing SuperSU - ");
 package_extract_dir("common/supersu", "/tmp/supersu");
 run_program("/tmp/busybox", "unzip", "/tmp/supersu/supersu.zip", "META-INF/com/google/android/*", "-d", "/tmp/supersu");
 run_program("/tmp/busybox", "sh", "/tmp/supersu/META-INF/com/google/android/update-binary", "dummy", "1", "/tmp/supersu/supersu.zip");
-ui_print("Cleaning up...");
+ui_print(" - Cleaning this mess up... - ");
 ifelse(is_mounted("/system") == "/system", unmount("/system"));
 delete_recursive("/tmp/");
 set_progress(1.000000);
+ui_print("=============================================");
 ui_print("Finished!");
 ui_print("Please note:");
 ui_print("Bugs from dirty flashes won't be attended.");
