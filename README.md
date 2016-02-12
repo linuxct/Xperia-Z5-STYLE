@@ -1,33 +1,22 @@
-#Xperia Z5 S.T.Y.L.E.
+#Xperia Z5 STYLE
 ##Custom ROM for Xperia M2 devices.
 
 
-![Xperia Z5 S.T.Y.L.E.](http://i.imgur.com/sluC3cj.png "Xperia Z5 S.T.Y.L.E.")
+![Xperia Z5 STYLE](http://i.imgur.com/sluC3cj.png "Xperia Z5 STYLE")
 
 
-**S** - Simply,  
-**T** - Totally efficient,  
-**Y** - Yeasty,  
-**L** - & Lightweight,  
-**E** - Z5 Experience  
+
 
 
 #####Xperia Z5 S.T.Y.L.E. 4.0 features:
 
-- Stock based, 18.6.A.0.175, **Deodexed** using @Gaurav007's Firmware, **zipaligned** and with **SuperUserMod**.
-- Implemented using **ALL XPERIA Z5 APPS** (which weren't considered Bloatware OFC). For example: Z5 Camera 2.0, Weather, Calendar, Contacts, Themes, Dialer, Messaging, Mail, etc.)
-- **DEBLOATED**: It's faster than any ROM out there (probably even faster than some UBL Roms), very stable and weights considerably less (Less than 400MB). All the system has been optimized wisely, removing Sony unnecesary apps.
-- **TWEAKED**: Implemented with various tweaks, discovered and made by @Miche1asso, to ensure a proper Lollipop experience. For example: GPS Fixes, zRAM tweaks, FStrim to boost your NAND... 
-- You can install Xposed if you want to, just flash Rovo89 API22 Xposed flashable Zip and you're ready to go
-
-
-####Known bugs:
-######My APNs are not downloading automatically, what should I do?
-Configure them manually... I'll try to fix that for the next one. 
-
-######My screen is not working to touch anymore after flashing the Zip?!?!
-That's a Sony's Kernel bug present in all 0x0800 screens, and I can't fix that.
-The solution for me is to lock my device, and after 3 seconds, turn the screen back on and it should be working ok again.
+- Based on the latest Xperia Z1 Compact deodexed base by @Gaurav007, with **SuperUserMod** and **ZipAlign**.
+- Implemented with a bunch of updated Sony Xperia Z5 apps, such as Camera, Weather, Contacts, Dialer, some themes, etc.
+- **No bloatware**: All unuseful Sony apps were removed. The system has been optimized at it's max.
+- **Tweaked**: Some tweaks have been implemented to improve your Lollipop experience, such as TRIM for NAND, ART Tweaks, and zRAM Tweaks.
+- You can install Xposed on top of it if you want to. Just Google "Xposed For Lollipop" and follow the steps.
+- **Custom ROM OTA Services**: A OTA Update system has been implemented, independent of Sony's FOTA, so that I can send you over there the latest patches and updates of the ROM.
+- X-Reality & Bravia Engine 2 come preinstalled to enjoy a better image quality.
 
 
 ##How can I join BETA group?
