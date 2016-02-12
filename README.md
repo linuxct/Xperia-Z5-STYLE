@@ -2,13 +2,9 @@
 ##Custom ROM for Xperia M2 devices.
 
 
-![Xperia Z5 STYLE](http://i.imgur.com/sluC3cj.png "Xperia Z5 STYLE")
+![Xperia Z5 STYLE](http://sergiocastell.com/XperiaZ5STYLE/banner.png "Xperia Z5 STYLE")
 
-
-
-
-
-#####Xperia Z5 S.T.Y.L.E. 4.0 features:
+#####Xperia Z5 S.T.Y.L.E. 4.5 features:
 
 - Based on the latest Xperia Z1 Compact deodexed base by @Gaurav007, with **SuperUserMod** and **ZipAlign**.
 - Implemented with a bunch of updated Sony Xperia Z5 apps, such as Camera, Weather, Contacts, Dialer, some themes, etc.
