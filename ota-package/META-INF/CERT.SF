@@ -1,0 +1,611 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest: fcrKZKgEGe4eQ3/HAzjZnmL0goY=
+Created-By: 1.0 (Android SignApk)
+
+Name: system/etc/tfa98xx/VoiceCallSpeaker_top.preset
+SHA1-Digest: q2u77fUVK/JKMWziA6k33Md5fqM=
+
+Name: system/vendor/lib/libchromatix_imx134_SOI08BS2_preview_snow.so
+SHA1-Digest: 2FwBv5RoRkK169HoxjnS5ao2eC4=
+
+Name: system/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_night.so
+SHA1-Digest: W7rab55cqSM4TI26zrhc9yPyy5I=
+
+Name: system/vendor/lib/libchromatix_imx134_SOI08BS2_preview_macro.so
+SHA1-Digest: TJ4wnZeHksjq4mxzQOYM9N4lUj4=
+
+Name: system/etc/acdbdata/MTP/MTP_Handset_cal.acdb
+SHA1-Digest: NpJQQTGFJbIc39mBtPvlaXse4Q0=
+
+Name: system/priv-app/SystemUI/SystemUI-noclockmod.apk.old
+SHA1-Digest: A16Yx4L9mXxo45K0nNHFNYObS3k=
+
+Name: system/lib/soundfx/libbundlewrapper.so
+SHA1-Digest: Pht3bA5FZ3gekobpLgZV97+5cQA=
+
+Name: system/priv-app/FileCommander/FileCommander.apk
+SHA1-Digest: vbikx0gsT1Cfx4OlRNuvs5+bxYo=
+
+Name: system/vendor/lib/libchromatix_imx134_SOI08BS2_preview_baby.so
+SHA1-Digest: zGq2L/1SU4mxWI2IBB/yT+Du/LM=
+
+Name: system/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_dish.so
+SHA1-Digest: yeomD3ZDw1mNAAA6EsTgApAX1PM=
+
+Name: system/priv-app/SomcOtaUpdater/SomcOtaUpdater.apk
+SHA1-Digest: Js1u60Svb2Aa0U2QaxJX9+5jmOA=
+
+Name: system/etc/acdbdata/Sony/Sony_Headset_cal.acdb
+SHA1-Digest: hMyMk6K54Qh9AyNJgvHKLCiHo5I=
+
+Name: system/lib/soundfx/libsonypostprocbundle.so
+SHA1-Digest: ItXrnWHxDzcrJQyppde3t4AnFxg=
+
+Name: system/vendor/lib/libmmcamera2_sensor_modules.so
+SHA1-Digest: zIR801QaJ33P+yYyo9ufGaAgAbc=
+
+Name: system/etc/tfa98xx/TFA9890_btm.config
+SHA1-Digest: jwgSPgTqYNsslqPOWT6IEQ4cbLQ=
+
+Name: system/etc/media_codecs_google_telephony.xml
+SHA1-Digest: cEH60UffMvECrTUew9SC8MBiWIg=
+
+Name: system/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_landscap
+ e.so
+SHA1-Digest: JEBHBEIzU5X5qokUdP0ITiEhMYA=
+
+Name: system/vendor/lib/libmmcamera2_imglib_modules.so
+SHA1-Digest: hLOm/ZcU16WuTus60jxiJVm+x/o=
+
+Name: system/vendor/lib/libchromatix_imx134_SOI08BS2_preview_pet.so
+SHA1-Digest: //z3AupuCJaam/5pM1sFME10oBE=
+
+Name: system/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_soft_ski
+ n.so
+SHA1-Digest: N7bjXL2yumzEdXdVP7qpN4joKME=
+
+Name: system/vendor/lib/libchromatix_imx134_SOI08BS2_preview_soft_skin
+ .so
+SHA1-Digest: /AvT+gjyemiKoNXqk4MsBmem2Ws=
+
+Name: system/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_anti_mot
+ ion_blur.so
+SHA1-Digest: Hp1iWFBopiO9cWp8GLVpQlJwBzA=
+
+Name: system/etc/tfa98xx/TFA9890.patch
+SHA1-Digest: xQiFZrTvDP2LsfsUW3PiPYTKR+I=
+
+Name: system/vendor/lib/libchromatix_imx134_SOI08BS2_video_portrait.so
+SHA1-Digest: +smL7B62rzYH026PrrDjIM2GBiE=
+
+Name: system/etc/surround_sound/filter1i.pcm
+SHA1-Digest: xwx/0saseHjYeIeCce1VaSmVb3Y=
+
+Name: system/lib/libchromatix_imx134_SOI08BS2_liveshot.so
+SHA1-Digest: 05nwNRZ0BkOKEGCFq/N9c6NaUXc=
+
+Name: system/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_high_sen
+ sitivity.so
+SHA1-Digest: S16l/Jy83YisEydGYjJwNmuSiF0=
+
+Name: system/etc/acdbdata/Liquid/Liquid_Hdmi_cal.acdb
+SHA1-Digest: npThoIWatsBpGZLFx8BahGBDWyk=
+
+Name: system/vendor/lib/libchromatix_imx134_SOI08BS2_video_landscape.s
+ o
+SHA1-Digest: zJdrh3kZxwW2Y0KwrQ1OW/4tHmE=
+
+Name: system/etc/acdbdata/Liquid/Liquid_Global_cal.acdb
+SHA1-Digest: Wk+za0BsIy9rI5BdBm55odlHs/g=
+
+Name: common/buildprop.sh
+SHA1-Digest: ibsOU9vBaoyUqkHRsLW4L8AHFyE=
+
+Name: system/etc/mixer_paths_auxpcm.xml
+SHA1-Digest: 1p2OPe3wVapPAY5IrZ6kCod8j6M=
+
+Name: system/etc/surround_sound/filter1r.pcm
+SHA1-Digest: ic94LT/nYDaDudYhJuXLhrCC8Ec=
+
+Name: system/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_document
+ .so
+SHA1-Digest: uAHkTonRoWyhzQruuUg1Ak4QxW8=
+
+Name: system/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_night_po
+ rtrait.so
+SHA1-Digest: 04HqlQUbtvlJJGNHZjWCoybmYmE=
+
+Name: system/etc/acdbdata/Fluid/Fluid_General_cal.acdb
+SHA1-Digest: Kg8NZHee6bxfmeos51uqPtCQtAo=
+
+Name: system/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_spot_lig
+ ht.so
+SHA1-Digest: vtoswMi3+0CnBLmZFniyq7aW15E=
+
+Name: system/vendor/lib/libchromatix_imx134_SOI08BS2_video_snow.so
+SHA1-Digest: iEnwEiGls+JDRtApRBRb4lVkQkA=
+
+Name: system/rom.ota.prop
+SHA1-Digest: e+AwRWwghC7ut+8WWA3HJISte+0=
+
+Name: system/lib/soundfx/libreverbwrapper.so
+SHA1-Digest: GA2peQ3i4otcwvroHut2l0g/VsQ=
+
+Name: system/etc/acdbdata/Liquid/Liquid_Bluetooth_cal.acdb
+SHA1-Digest: iqnMhHWgi1hiOtbcgk/loRBz8WM=
+
+Name: system/lib/soundfx/libdownmix.so
+SHA1-Digest: 78wf7gf70H33QD0WBwgm/5Pvh3o=
+
+Name: system/lib/soundfx/libaudiopreprocessing.so
+SHA1-Digest: 0QOaG4Fdpjzqbx6hLoZhpfD6D88=
+
+Name: system/vendor/lib/soundfx/libqcbassboost.so
+SHA1-Digest: wvRYjpVSoKUUA9TF0ogr4EIhISY=
+
+Name: system/priv-app/SomcNotes/SomcNotes.apk
+SHA1-Digest: PqE+m8PAmEBAgG1mvQb1yeFWwsA=
+
+Name: system/etc/tfa98xx/VoiceCallSpeaker_btm.eq
+SHA1-Digest: oBLoYZXq9ZAzJyADfi8MTeKlrqA=
+
+Name: system/vendor/lib/liboemcamera.so
+SHA1-Digest: 7jX5xQOUyu+MqcKVH5og5qh8u9g=
+
+Name: system/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_backligh
+ t_portrait.so
+SHA1-Digest: 0t3o4Bxl0JVBRInfvuauALVqio8=
+
+Name: system/etc/tfa98xx/TFA9890_top.config
+SHA1-Digest: DEhYgfyoW5+bqPM8lp/hX7bgLbQ=
+
+Name: system/etc/audio_effects.conf
+SHA1-Digest: t4YqUhL4/us4TPJZirF2BxGCoTI=
+
+Name: system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb
+SHA1-Digest: 8otQZ5/mSlYGwpi//tRS/C9l3E4=
+
+Name: common/buildprop/lte/build.prop
+SHA1-Digest: iqOb9X8xXywwEKQkYS1gsLMIAMM=
+
+Name: system/vendor/lib/libchromatix_imx134_SOI08BS2_video_beach.so
+SHA1-Digest: mKrJVVy82IvZBqCESH4Y7slfGqI=
+
+Name: system/etc/acdbdata/Sony/Sony_Bluetooth_cal.acdb
+SHA1-Digest: ssuO5pXF6QaLSC99ePw4VMSyiOw=
+
+Name: system/etc/tfa98xx/HiFiSpeakerSforce_top.eq
+SHA1-Digest: ggx67eJcV47CbEO2kd6hdoVGY4E=
+
+Name: system/etc/acdbdata/Liquid/Liquid_General_cal.acdb
+SHA1-Digest: 0A9vc0AFmWN7gPsDpFeBlbHDbmA=
+
+Name: system/vendor/lib/libchromatix_imx134_SOI08BS2_preview_backlight
+ .so
+SHA1-Digest: sSsLxX/pvjHIDeA5ZzQFM1Xn43o=
+
+Name: system/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_snow.so
+SHA1-Digest: NZuZY/aL4tuMHAoqOl5WLOBLGTs=
+
+Name: system/vendor/lib/libchromatix_imx134_SOI08BS2_preview_dark.so
+SHA1-Digest: sUu3fnR9j8etZ9/nw0KdIunntFY=
+
+Name: system/vendor/lib/libchromatix_imx134_SOI08BS2_preview_party.so
+SHA1-Digest: WHEgs2qfi5UB8lm49+QL7V8w3ZE=
+
+Name: system/vendor/lib/libchromatix_imx134_SOI08BS2_liveshot_beach.so
+SHA1-Digest: Hn7tX+/sRmec+8vUs39EqUztAVE=
+
+Name: system/vendor/lib/libchromatix_imx134_SOI08BS2_video_night.so
+SHA1-Digest: SQaHmkd7UD/u6c99tT1jMzVK0D0=
+
+Name: system/vendor/camera/morpho_face_detection.cfg
+SHA1-Digest: m1RDnRMqhWP6kLBzOaCY5EVq2nE=
+
+Name: common/stopric.sh
+SHA1-Digest: zkYGKDKS8eAqznaoSAzzhRRO0/0=
+
+Name: system/etc/sony_effect/sforce_param_qdsp.bin
+SHA1-Digest: FlhxBO5bCHCs2ts0T9CZWCWfoLE=
+
+Name: system/etc/acdbdata/Sony/Sony_General_cal.acdb
+SHA1-Digest: PEX2kwcDx3rhUzG54dzXlEExdIc=
+
+Name: system/lib/soundfx/libldnhncr.so
+SHA1-Digest: cTgk4aFPzfhuVGAEJrNERPZC7rs=
+
+Name: system/etc/tfa98xx/HiFiSpeakerRing_top.eq
+SHA1-Digest: 56qwWyCGn6NmqVcbO85XfSBS0r4=
+
+Name: system/etc/sony_effect/xloud_param_arm.bin
+SHA1-Digest: tMTTPkJCCTr2nSz9F27R/4Iq5Ko=
+
+Name: system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb
+SHA1-Digest: Zq66v6w85Em0VuBbGNn0VByd1lk=
+
+Name: system/etc/tfa98xx/TFA9890_Receiver.config
+SHA1-Digest: UTV2P8d8VJLmL63X1x+MZ/sn49g=
+
+Name: system/etc/tfa98xx/btm.speaker
+SHA1-Digest: E/n3lP6pDmKuAjqF5JBMF5CkgmQ=
+
+Name: system/vendor/lib/libchromatix_imx134_SOI08BS2_liveshot_portrait
+ .so
+SHA1-Digest: wM4OJ+Utfti5hhhHqkb0e1WgvVE=
+
+Name: system/vendor/lib/libchromatix_imx134_SOI08BS2_preview.so
+SHA1-Digest: 75e2X/kUi5zgdK0LZj+gc8o7Bpg=
+
+Name: system/etc/media_codecs_google_audio.xml
+SHA1-Digest: qrEWG1/RQ13uO6xUZ4KTi3OMd2o=
+
+Name: system/vendor/lib/libchromatix_imx134_SOI08BS2_preview_dish.so
+SHA1-Digest: Gj3MJ9OlOi+24QgzUFJ/p26YSqM=
+
+Name: system/vendor/lib/libchromatix_imx134_SOI08BS2_preview_sports.so
+SHA1-Digest: TeI1QUSz6c1TnxpOsgLdfsvJK5A=
+
+Name: system/vendor/lib/libmmcamera2_isp_modules.so
+SHA1-Digest: mMAlGOM1ExhR2RGIB/eYHJpuP4I=
+
+Name: system/etc/sony_effect/effect_params.data
+SHA1-Digest: hy3b15OccuPEzzbQRWRWZp5c73c=
+
+Name: system/etc/acdbdata/Liquid/Liquid_Headset_cal.acdb
+SHA1-Digest: hDnFIXyIUQfLR0eE3H3EGt/Ukjk=
+
+Name: system/app/SoundEnhancement/SoundEnhancement.apk
+SHA1-Digest: aLNjTkMTasOoSSP+/umoWGlkTiM=
+
+Name: system/etc/tfa98xx/FMSpeaker_top.eq
+SHA1-Digest: ZllcA9A7VfT7aojHZ/cl3T9IGtI=
+
+Name: system/etc/acdbdata/Liquid/Liquid_Handset_cal.acdb
+SHA1-Digest: mEkqyvkqvWAlPWhYpb5/4CvrzbA=
+
+Name: system/etc/acdbdata/Fluid/Fluid_Speaker_cal.acdb
+SHA1-Digest: EmrJpfHC2j4Nk3UUqOWsDiwEc70=
+
+Name: system/etc/surround_sound/filter2i.pcm
+SHA1-Digest: aJGZ87Pc5r2ndYHdkzbeC2QZR4o=
+
+Name: system/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_sports.s
+ o
+SHA1-Digest: 1a76j33/5OOoLE2L82F9eyo0wTU=
+
+Name: system/etc/tfa98xx/VoiceCallSpeaker_top.eq
+SHA1-Digest: FC+Wo4RH+fLoByTnckaFknepyaM=
+
+Name: system/etc/mixer_paths.xml
+SHA1-Digest: qjbmEvaMtJgKbmAKJEF+YENaqcs=
+
+Name: system/etc/sony_effect/xloud_param_qdsp.bin
+SHA1-Digest: PxG1EHpHUf7Iv+5u/Dk50aLVxgs=
+
+Name: system/vendor/lib/libchromatix_imx134_SOI08BS2_liveshot_night.so
+SHA1-Digest: y9z33oZLPolkJhYFRN+GwAvHWdc=
+
+Name: system/etc/surround_sound/filter2r.pcm
+SHA1-Digest: dTIRChWVqnsrfYuqjY6io9+aobo=
+
+Name: system/vendor/lib/libchromatix_imx134_SOI08BS2_preview_document.
+ so
+SHA1-Digest: yPpWH1tgN+7ZblutR5Gedk8Z0/I=
+
+Name: system/vendor/lib/libchromatix_imx134_SOI08BS2_preview_night_por
+ trait.so
+SHA1-Digest: ksz1QMzMVrNBA/QHPv1OiYDWK8E=
+
+Name: META-INF/com/google/android/updater-script
+SHA1-Digest: CJbzQu1xiTUx1cnc53meeNCsMqo=
+
+Name: system/vendor/lib/libchromatix_imx134_SOI08BS2_preview_sweep_sti
+ tch.so
+SHA1-Digest: ETTg/imGomPq3ptv5qOlYMcQnGo=
+
+Name: system/lib/soundfx/libeffectproxy.so
+SHA1-Digest: 7k/ayUu4v6yIOXJf94oEBLvqW+U=
+
+Name: system/etc/tfa98xx/FMSpeaker_btm.eq
+SHA1-Digest: 0JWyblUi1Tjk5VHvuNkhpkxZ6do=
+
+Name: system/lib/hw/camera.msm8226.so
+SHA1-Digest: 8kqHjKNBKVp+Lit/YI5q8SOhUYs=
+
+Name: system/vendor/camera/morpho_denoiser.cfg
+SHA1-Digest: D9ttR3o6ZLO4D5gBSQzkz8ZtC8U=
+
+Name: system/vendor/lib/libchromatix_imx134_SOI08BS2_liveshot_snow.so
+SHA1-Digest: 4oxJIJLVV0B4oCUOOn0d0a1UOXo=
+
+Name: system/vendor/lib/libchromatix_imx134_SOI08BS2_preview_spot_ligh
+ t.so
+SHA1-Digest: 8ZkYz9pFCGuRH9WECIE/ykrk6gg=
+
+Name: common/busybox
+SHA1-Digest: AK16yD0hEh2Lk43hAnkaQxAMwiM=
+
+Name: system/vendor/lib/libchromatix_imx134_SOI08BS2_preview_anti_moti
+ on_blur.so
+SHA1-Digest: LY+dySZxg/ZPdlpGxBW6JQUqsEY=
+
+Name: system/etc/sony_effect/sforce_param_arm.bin
+SHA1-Digest: 6sb6hx/XVuGRrX6yOde5Q4oTobU=
+
+Name: common/buildprop/hspass/build.prop
+SHA1-Digest: hoDjcpE/kU8hlil1BUnJgVWgGsg=
+
+Name: system/vendor/lib/libmmcamera2_stats_modules.so
+SHA1-Digest: +rATsulkQs0xY8z9aA3ox9I4owo=
+
+Name: system/etc/tfa98xx/HiFiSpeakerSforce_btm.preset
+SHA1-Digest: kpVXLbDvrlcr1JIAFOCA3T5UBGI=
+
+Name: system/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_beach.so
+SHA1-Digest: xme947v6xL5FLQnj4cdfVnvLqBA=
+
+Name: system/vendor/etc/audio_effects.conf
+SHA1-Digest: iVShhBeFbx45ZwmgnuhImaiKt5g=
+
+Name: system/vendor/lib/libchromatix_imx134_SOI08BS2_liveshot_sports.s
+ o
+SHA1-Digest: XKGGJ8ALhK+cVPMNPxv/XajYL1M=
+
+Name: system/vendor/lib/libchromatix_imx134_SOI08BS2_preview_fireworks
+ .so
+SHA1-Digest: LaeRHCmV0vOytFWfWbwOMwD/vYE=
+
+Name: system/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_party.so
+SHA1-Digest: Xu6CpR2LQLJkekODXq6XSID0tjo=
+
+Name: system/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_portrait
+ .so
+SHA1-Digest: b4SCrt01d2EP991C/GH73vJAz/w=
+
+Name: system/etc/tfa98xx/HiFiSpeakerSforce_btm.eq
+SHA1-Digest: iUQrUG7tXnzMpZUzuw8hyR+dnL0=
+
+Name: system/etc/tfa98xx/HiFiSpeakerRing_btm.eq
+SHA1-Digest: C22YQmWE02wpthR01XhHor7EtiY=
+
+Name: system/vendor/camera/morpho_denoiser_subcam_preview.cfg
+SHA1-Digest: cbZOPI3tvtJ8oq+qxiN3bpo1hw8=
+
+Name: system/lib/soundfx/libsonysweffect.so
+SHA1-Digest: bezRGQuSXgj144Q/nSRrHxb1CEw=
+
+Name: system/etc/acdbdata/MTP/MTP_Global_cal.acdb
+SHA1-Digest: lIccyCW1ODrixTRu82U349OkigQ=
+
+Name: system/etc/surround_sound/filter4i.pcm
+SHA1-Digest: uSWlpTDrjWgbO/yCMbIqNJHUzaw=
+
+Name: system/etc/tfa98xx/VoiceCallEarpice_btm.eq
+SHA1-Digest: r1/mMbvKgToPeBudvBjh67tvcbA=
+
+Name: system/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb
+SHA1-Digest: D8/OZJrfPlqJoVWp1xicf73/TXU=
+
+Name: META-INF/com/google/android/update-binary
+SHA1-Digest: ddO14tBdSSaBnSFHvjNjI/Owyt8=
+
+Name: system/etc/acdbdata/Fluid/Fluid_Bluetooth_cal.acdb
+SHA1-Digest: avCg+TDwfuQfDtzqIBIeCvuFnug=
+
+Name: system/vendor/lib/soundfx/libqcvirt.so
+SHA1-Digest: du7d4u80vaKoPB2l3xIlu2NBqwM=
+
+Name: system/etc/acdbdata/Fluid/Fluid_Global_cal.acdb
+SHA1-Digest: HO9mp83PD4cMJTPaNUgusWQEWc0=
+
+Name: system/vendor/camera/morpho_denoiser_subcam.cfg
+SHA1-Digest: 7zJkpL3VH53Dn9rj2hfsuQ/sqEE=
+
+Name: system/etc/tfa98xx/FMSpeaker_btm.preset
+SHA1-Digest: KmPnQnY2HNTxR6hdjAh8t/xvuqU=
+
+Name: system/etc/tfa98xx/HiFiSpeaker_btm.eq
+SHA1-Digest: QoAJ7k/NVvnc4tQOdtcQ3KEMjqY=
+
+Name: system/vendor/lib/libchromatix_imx134_SOI08BS2_preview_high_sens
+ itivity.so
+SHA1-Digest: DL9aeHPitr1bYvbfdBW2mPTXKeg=
+
+Name: system/etc/tfa98xx/HiFiSpeakerRing_top.preset
+SHA1-Digest: ZHC//mm1+c5tkRad/KqFU/Uou7s=
+
+Name: system/etc/sony_effect/clearphase_sp_param.bin
+SHA1-Digest: BEyL8BnmejwG11+i5+5m6mvUils=
+
+Name: system/lib/soundfx/libqcomvisualizer.so
+SHA1-Digest: d+ag9spKJaMBzbMozDvyWg7CjhQ=
+
+Name: system/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_pet.so
+SHA1-Digest: y4AuTn44pduWQ0Mp5bNYe6SL2AI=
+
+Name: system/etc/acdbdata/MTP/MTP_General_cal.acdb
+SHA1-Digest: fBTJacj0IgBk/OYr4jByn5AOCxQ=
+
+Name: system/etc/media_codecs_google_video.xml
+SHA1-Digest: 1y8FvCEmfautTKY+P6JgAbgPiGc=
+
+Name: system/etc/acdbdata/Fluid/Fluid_Handset_cal.acdb
+SHA1-Digest: KGgwBSjMuQAR+imcYu1HJ5Zt+M4=
+
+Name: system/etc/tfa98xx/coldboot.patch
+SHA1-Digest: Uuu7kHYcKcJZKR/GZ846tKSgnTM=
+
+Name: system/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot.so
+SHA1-Digest: DSHmnNFFgsZrdfXTvw0mdhwFzEA=
+
+Name: system/etc/acdbdata/Sony/Sony_Handset_cal.acdb
+SHA1-Digest: 0IPPPmup9//xmeYdX1QscqgiulE=
+
+Name: system/vendor/lib/libchromatix_imx134_SOI08BS2_preview_portrait.
+ so
+SHA1-Digest: jpI9c8ExDEC3GEWoWIvxueyySpI=
+
+Name: system/vendor/lib/libchromatix_imx134_SOI08BS2_preview_backlight
+ _portrait.so
+SHA1-Digest: BIoaSCm15x9gn1sDiQOlXqWb1IU=
+
+Name: system/etc/media_codecs.xml
+SHA1-Digest: egEnwC+OTwqay8s6DXOQ3BTejjY=
+
+Name: system/etc/tfa98xx/VoiceCallEarpice_top.preset
+SHA1-Digest: +aAFJxEjFVpToqrxZIIDdK7RE8A=
+
+Name: system/etc/media_profiles.xml
+SHA1-Digest: ozjrb4vM9cabbwgYvlI1a0uky3M=
+
+Name: system/etc/tfa98xx/HiFiSpeaker_top.eq
+SHA1-Digest: +kK3XpazMxrTNadIk/wUbafxhjk=
+
+Name: system/etc/surround_sound/filter3r.pcm
+SHA1-Digest: 2LgoZPL30PQn89WtEO7x139ntZ4=
+
+Name: system/etc/acdbdata/Liquid/Liquid_Speaker_cal.acdb
+SHA1-Digest: 3zr0nU6hTNuT8kiCEzMknbVqDZw=
+
+Name: system/etc/acdbdata/MTP/MTP_Headset_cal.acdb
+SHA1-Digest: a764Nxphc480GnBXMk019X6WUek=
+
+Name: system/lib/libchromatix_imx134_SOI08BS2_video_hd.so
+SHA1-Digest: EO21/8jMnZUzgIljcFHlO0Z/G3U=
+
+Name: system/etc/surround_sound/filter3i.pcm
+SHA1-Digest: XM+FMsW5MUUQ7d6+fJakWpCtFiA=
+
+Name: common/buildprop/dual/build.prop
+SHA1-Digest: kqLha/MtrnErSdLLu3r2tf5vC/Q=
+
+Name: system/etc/hosts
+SHA1-Digest: +/N0xocQH8MmN/3fvg61dEV+IZA=
+
+Name: system/etc/acdbdata/Fluid/Fluid_Headset_cal.acdb
+SHA1-Digest: vsq8DL7ldyFi8/5Z7qypjD/eQt0=
+
+Name: system/etc/tfa98xx/VoiceCallSpeaker_btm.preset
+SHA1-Digest: Qp4mwtmhfH3R3umt3P/1rjmfM+M=
+
+Name: system/etc/tfa98xx/HiFiSpeaker_btm.preset
+SHA1-Digest: OrZ8cvH/JQNkjZqHsZ9HCLiV2q4=
+
+Name: system/etc/tfa98xx/VoiceCallEarpice_top.eq
+SHA1-Digest: TPy1zpyY1o41+3cZYCd5hfbJe38=
+
+Name: system/etc/surround_sound/filter4r.pcm
+SHA1-Digest: mkxT9GjtRWFaq9DynFRQS393Kj4=
+
+Name: system/vendor/lib/libchromatix_imx134_SOI08BS2_liveshot_landscap
+ e.so
+SHA1-Digest: bGSsoaEYAo2a5xRO3/zXwGoNJMs=
+
+Name: system/vendor/lib/libchromatix_imx134_SOI08BS2_video_party.so
+SHA1-Digest: MvKoXmKSU3w9nexOE2BNKu2hSRs=
+
+Name: system/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_macro.so
+SHA1-Digest: 8m1Pcz+fLQCCtPfhh4ILBOD4s/Y=
+
+Name: system/vendor/lib/libchromatix_imx134_SOI08BS2_default_video.so
+SHA1-Digest: bKLI1qdM7plmrB6xjhZOamMMQQE=
+
+Name: system/vendor/lib/libchromatix_imx134_SOI08BS2_preview_landscape
+ .so
+SHA1-Digest: tq2ZQTdpO3fdAIAXYk3sGou+Fuc=
+
+Name: system/priv-app/SystemUI/SystemUI.apk
+SHA1-Digest: fHF2pAT02fDx9+f1mO51K8kFLE8=
+
+Name: system/lib/soundfx/libqcomvoiceprocessing.so
+SHA1-Digest: jccIHu+YczZ91UllfQ4M14YKlRg=
+
+Name: system/ota.prop
+SHA1-Digest: +SIbv0ytDDblXXwMOG28P8qp3Lk=
+
+Name: system/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_backligh
+ t.so
+SHA1-Digest: tmqXKTbCkPHLLDwKCnFevjaxgF0=
+
+Name: system/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_firework
+ s.so
+SHA1-Digest: 2KXhuEQNxG1WCTPS4r6YQagfDuQ=
+
+Name: system/vendor/lib/libchromatix_imx134_SOI08BS2_preview_beach.so
+SHA1-Digest: quRJwor7x459hJhcsXqQU/Y7T6g=
+
+Name: system/vendor/lib/libchromatix_imx134_SOI08BS2_preview_night.so
+SHA1-Digest: Xxlgs9sFFS0hZk0j/afQK3BxQ8Y=
+
+Name: system/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_handheld
+ _twilight.so
+SHA1-Digest: onn0GWktjDlFddkdZR9A7jlu40Q=
+
+Name: system/etc/tfa98xx/HiFiSpeaker_top.preset
+SHA1-Digest: /nKTHVc6rwBw/7lshJJy7ziXnAI=
+
+Name: system/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_sweep_st
+ itch.so
+SHA1-Digest: kmeEc6iqMMtEaTvYcEJYBaUUm7Q=
+
+Name: system/etc/acdbdata/Sony/Sony_Global_cal.acdb
+SHA1-Digest: h3d4rTYYjlQSmoLHuy/naX/txm0=
+
+Name: system/vendor/lib/libchromatix_imx134_SOI08BS2_video_sports.so
+SHA1-Digest: lZDRY/VucPTdwF1iVE2n64tNmKQ=
+
+Name: system/vendor/lib/libchromatix_imx134_SOI08BS2_liveshot_party.so
+SHA1-Digest: 3wMWH6rQk4TymuhjOpChJvmlIaw=
+
+Name: system/vendor/lib/libmmcamera2_iface_modules.so
+SHA1-Digest: os61yJbHz+pv+T9yDnD3VRBfXec=
+
+Name: system/lib/soundfx/libvisualizer.so
+SHA1-Digest: kIzbcgNwngqbK+EzljDWOnysNKc=
+
+Name: system/vendor/lib/soundfx/libqcreverb.so
+SHA1-Digest: qXL3xpJN1eCsT8Qc/J6z1PpsAJk=
+
+Name: system/etc/tfa98xx/top.speaker
+SHA1-Digest: +x5P63aW7FyKM9tuH9YRwWFG0Wo=
+
+Name: system/lib/soundfx/libvpt51wrapper.so
+SHA1-Digest: BB8rEDxuT/3jH89oQr1UlAeynPY=
+
+Name: system/etc/tfa98xx/HiFiSpeakerSforce_top.preset
+SHA1-Digest: qSqmYgmrXTUCkfp5suLil3JSrfg=
+
+Name: system/vendor/etc/effect_init_params
+SHA1-Digest: 9DthtT9rlVtNIclUcqj4tBm841E=
+
+Name: system/etc/tfa98xx/HiFiSpeakerRing_btm.preset
+SHA1-Digest: L+jDOjXHa6yM+EaU/OCsVMwfQA4=
+
+Name: system/etc/tfa98xx/FMSpeaker_top.preset
+SHA1-Digest: EukZ7uN4XLn+boptdeBY1sopUbk=
+
+Name: system/etc/audio_policy.conf
+SHA1-Digest: aCc8yTW1Ps8Vhu/MNiqP92j7vNY=
+
+Name: system/vendor/lib/libchromatix_imx134_SOI08BS2_preview_handheld_
+ twilight.so
+SHA1-Digest: VHtFSaQRAWcKxPUQ0P8H0n2ZiLk=
+
+Name: system/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_baby.so
+SHA1-Digest: Pa88tRZeJqf8B2r+BYDA3SRzZ3k=
+
+Name: system/etc/tfa98xx/VoiceCallEarpice_btm.preset
+SHA1-Digest: 38GlXJTX50T3mbAJJPvPfbhcqYk=
+
+Name: system/etc/acdbdata/Sony/Sony_Hdmi_cal.acdb
+SHA1-Digest: OtFi4nYzeSgHnuT1kQ6pJYypNKM=
+
+Name: system/etc/acdbdata/Fluid/Fluid_Hdmi_cal.acdb
+SHA1-Digest: yjMDbfJkliWudtLpK6puBuoMryA=
+
+Name: system/etc/acdbdata/Sony/Sony_Speaker_cal.acdb
+SHA1-Digest: 3VAx71YSBjjVg3Hzl6+LxJlEK+w=
+
+Name: system/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_dark.so
+SHA1-Digest: oeX3GIvBNrQNvxfji/bcGBv4bYU=
+
