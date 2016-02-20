@@ -1,49 +1,121 @@
-#ASSERT
-assert(getprop("ro.product.device") == "D2303" || getprop("ro.build.product") == "D2303" ||
-	getprop("ro.product.device") == "eagle" || getprop("ro.build.product") == "eagle" ||
-	getprop("ro.product.device") == "D2302" || getprop("ro.build.product") == "D2302" ||
-	getprop("ro.product.device") == "D2305" || getprop("ro.build.product") == "D2305" ||
-	getprop("ro.product.device") == "D2306" || getprop("ro.build.product") == "D2306" ||
-	getprop("ro.product.device") == "D2403" || getprop("ro.build.product") == "D2403" ||
-	getprop("ro.product.device") == "D2406" || getprop("ro.build.product") == "D2406" ||
-	getprop("ro.product.device") == "XPERIA M2" || getprop("ro.build.product") == "XPERIA M2" ||
-	abort("This package is for \"D2303,eagle,D2302,D2305,D2306,D2403,D2406\" devices; this is a \"" + getprop("ro.product.device") + "\"."););
-unmount("/system");
-unmount("/data");
+ui_print("");ui_print("");ui_print("");
+
+ui_print("* Xperia Z5 STYLE OTA Update 2 *");
+run_program("/sbin/busybox", "sleep", "3");
 show_progress(1.000000, 0);
-ui_print("");
-ui_print("");
-ui_print("Z5 S.T.Y.L.E. Installer");
-ui_print("");
-ui_print("");
-ui_print("Please REMEMBER TO WIPE DATA at the end!");
-ui_print("");
-ui_print("Mounting System");
-mount("ext4", "EMMC", "/dev/block/platform/msm_sdcc.1/by-name/system", "/system");
-set_progress(0.200000);
-ui_print("Cleaning up");
-ui_print("");
-delete_recursive("/system/app");
-delete_recursive("/system/framework");
-delete_recursive("/system/priv-app");
-delete_recursive("/system/vendor/app");
-delete_recursive("/system/media");
-set_progress(0.400000);
-ui_print("Extracting system...");
-ui_print("");
+
+ui_print("- Mounting system...");
+run_program("/sbin/busybox", "blockdev", "--setrw", "/dev/block/platform/msm_sdcc.1/by-name/system");
+run_program("/sbin/busybox", "mount", "/system");
+set_progress(0.150000);
+
+ui_print("- Extracting OTA files to system...");
 package_extract_dir("system", "/system");
-set_progress(0.700000);
-ui_print("Setting Permissions...");
-ui_print("");
-#PERM
+set_progress(0.300000);
+
+ui_print("- Correcting file permissions...");
 set_perm_recursive(0, 0, 0755, 0644, "/system/app");
-set_perm_recursive(0, 0, 0755, 0644, "/system/framework");
 set_perm_recursive(0, 0, 0755, 0644, "/system/priv-app");
-set_perm_recursive(0, 0, 0755, 0644, "/system/media");
-set_progress(0.900000);
+set_perm(0, 0, 0644, "/system/lib/libchromatix_imx134_SOI08BS2_liveshot.so");
+set_perm(0, 0, 0644, "/system/lib/libchromatix_imx134_SOI08BS2_video_hd.so");
+set_perm(0, 0, 0644, "/system/lib/hw/camera.msm8226.so");
+set_perm(0, 0, 0644, "/system/vendor/camera/morpho_denoiser.cfg");
+set_perm(0, 0, 0644, "/system/vendor/camera/morpho_denoiser_subcam.cfg");
+set_perm(0, 0, 0644, "/system/vendor/camera/morpho_denoiser_subcam_preview.cfg");
+set_perm(0, 0, 0644, "/system/vendor/camera/morpho_face_detection.cfg");
+set_perm(0, 0, 0644, "/system/vendor/lib/libchromatix_imx134_SOI08BS2_default_video.so");
+set_perm(0, 0, 0644, "/system/vendor/lib/libchromatix_imx134_SOI08BS2_liveshot_beach.so");
+set_perm(0, 0, 0644, "/system/vendor/lib/libchromatix_imx134_SOI08BS2_liveshot_landscape.so");
+set_perm(0, 0, 0644, "/system/vendor/lib/libchromatix_imx134_SOI08BS2_liveshot_night.so");
+set_perm(0, 0, 0644, "/system/vendor/lib/libchromatix_imx134_SOI08BS2_liveshot_party.so");
+set_perm(0, 0, 0644, "/system/vendor/lib/libchromatix_imx134_SOI08BS2_liveshot_portrait.so");
+set_perm(0, 0, 0644, "/system/vendor/lib/libchromatix_imx134_SOI08BS2_liveshot_snow.so");
+set_perm(0, 0, 0644, "/system/vendor/lib/libchromatix_imx134_SOI08BS2_liveshot_sports.so");
+set_perm(0, 0, 0644, "/system/vendor/lib/libchromatix_imx134_SOI08BS2_preview.so");
+set_perm(0, 0, 0644, "/system/vendor/lib/libchromatix_imx134_SOI08BS2_preview_anti_motion_blur.so");
+set_perm(0, 0, 0644, "/system/vendor/lib/libchromatix_imx134_SOI08BS2_preview_baby.so");
+set_perm(0, 0, 0644, "/system/vendor/lib/libchromatix_imx134_SOI08BS2_preview_backlight.so");
+set_perm(0, 0, 0644, "/system/vendor/lib/libchromatix_imx134_SOI08BS2_preview_backlight_portrait.so");
+set_perm(0, 0, 0644, "/system/vendor/lib/libchromatix_imx134_SOI08BS2_preview_beach.so");
+set_perm(0, 0, 0644, "/system/vendor/lib/libchromatix_imx134_SOI08BS2_preview_dark.so");
+set_perm(0, 0, 0644, "/system/vendor/lib/libchromatix_imx134_SOI08BS2_preview_dish.so");
+set_perm(0, 0, 0644, "/system/vendor/lib/libchromatix_imx134_SOI08BS2_preview_document.so");
+set_perm(0, 0, 0644, "/system/vendor/lib/libchromatix_imx134_SOI08BS2_preview_fireworks.so");
+set_perm(0, 0, 0644, "/system/vendor/lib/libchromatix_imx134_SOI08BS2_preview_handheld_twilight.so");
+set_perm(0, 0, 0644, "/system/vendor/lib/libchromatix_imx134_SOI08BS2_preview_high_sensitivity.so");
+set_perm(0, 0, 0644, "/system/vendor/lib/libchromatix_imx134_SOI08BS2_preview_landscape.so");
+set_perm(0, 0, 0644, "/system/vendor/lib/libchromatix_imx134_SOI08BS2_preview_macro.so");
+set_perm(0, 0, 0644, "/system/vendor/lib/libchromatix_imx134_SOI08BS2_preview_night.so");
+set_perm(0, 0, 0644, "/system/vendor/lib/libchromatix_imx134_SOI08BS2_preview_night_portrait.so");
+set_perm(0, 0, 0644, "/system/vendor/lib/libchromatix_imx134_SOI08BS2_preview_party.so");
+set_perm(0, 0, 0644, "/system/vendor/lib/libchromatix_imx134_SOI08BS2_preview_pet.so");
+set_perm(0, 0, 0644, "/system/vendor/lib/libchromatix_imx134_SOI08BS2_preview_portrait.so");
+set_perm(0, 0, 0644, "/system/vendor/lib/libchromatix_imx134_SOI08BS2_preview_snow.so");
+set_perm(0, 0, 0644, "/system/vendor/lib/libchromatix_imx134_SOI08BS2_preview_soft_skin.so");
+set_perm(0, 0, 0644, "/system/vendor/lib/libchromatix_imx134_SOI08BS2_preview_sports.so");
+set_perm(0, 0, 0644, "/system/vendor/lib/libchromatix_imx134_SOI08BS2_preview_spot_light.so");
+set_perm(0, 0, 0644, "/system/vendor/lib/libchromatix_imx134_SOI08BS2_preview_sweep_stitch.so");
+set_perm(0, 0, 0644, "/system/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot.so");
+set_perm(0, 0, 0644, "/system/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_anti_motion_blur.so");
+set_perm(0, 0, 0644, "/system/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_baby.so");
+set_perm(0, 0, 0644, "/system/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_backlight.so");
+set_perm(0, 0, 0644, "/system/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_backlight_portrait.so");
+set_perm(0, 0, 0644, "/system/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_beach.so");
+set_perm(0, 0, 0644, "/system/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_dark.so");
+set_perm(0, 0, 0644, "/system/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_dish.so");
+set_perm(0, 0, 0644, "/system/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_document.so");
+set_perm(0, 0, 0644, "/system/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_fireworks.so");
+set_perm(0, 0, 0644, "/system/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_handheld_twilight.so");
+set_perm(0, 0, 0644, "/system/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_high_sensitivity.so");
+set_perm(0, 0, 0644, "/system/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_landscape.so");
+set_perm(0, 0, 0644, "/system/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_macro.so");
+set_perm(0, 0, 0644, "/system/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_night.so");
+set_perm(0, 0, 0644, "/system/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_night_portrait.so");
+set_perm(0, 0, 0644, "/system/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_party.so");
+set_perm(0, 0, 0644, "/system/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_pet.so");
+set_perm(0, 0, 0644, "/system/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_portrait.so");
+set_perm(0, 0, 0644, "/system/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_snow.so");
+set_perm(0, 0, 0644, "/system/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_soft_skin.so");
+set_perm(0, 0, 0644, "/system/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_sports.so");
+set_perm(0, 0, 0644, "/system/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_spot_light.so");
+set_perm(0, 0, 0644, "/system/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_sweep_stitch.so");
+set_perm(0, 0, 0644, "/system/vendor/lib/libchromatix_imx134_SOI08BS2_video_beach.so");
+set_perm(0, 0, 0644, "/system/vendor/lib/libchromatix_imx134_SOI08BS2_video_landscape.so");
+set_perm(0, 0, 0644, "/system/vendor/lib/libchromatix_imx134_SOI08BS2_video_night.so");
+set_perm(0, 0, 0644, "/system/vendor/lib/libchromatix_imx134_SOI08BS2_video_party.so");
+set_perm(0, 0, 0644, "/system/vendor/lib/libchromatix_imx134_SOI08BS2_video_portrait.so");
+set_perm(0, 0, 0644, "/system/vendor/lib/libchromatix_imx134_SOI08BS2_video_snow.so");
+set_perm(0, 0, 0644, "/system/vendor/lib/libchromatix_imx134_SOI08BS2_video_sports.so");
+set_perm(0, 0, 0644, "/system/vendor/lib/libmmcamera2_iface_modules.so");
+set_perm(0, 0, 0644, "/system/vendor/lib/libmmcamera2_imglib_modules.so");
+set_perm(0, 0, 0644, "/system/vendor/lib/libmmcamera2_isp_modules.so");
+set_perm(0, 0, 0644, "/system/vendor/lib/libmmcamera2_sensor_modules.so");
+set_perm(0, 0, 0644, "/system/vendor/lib/libmmcamera2_stats_modules.so");
+set_perm(0, 0, 0644, "/system/vendor/lib/liboemcamera.so");
+set_progress(0.500000);
+
+ui_print("- Replacing Build.prop");
+package_extract_file("common/busybox", "/tmp/busybox");
+set_perm(0, 0, 0755, "/tmp/busybox");
+package_extract_file("common/buildprop.sh", "/tmp/buildprop.sh");
+set_perm(0, 0, 0755, "/tmp/buildprop.sh");
+package_extract_dir("common/buildprop", "/tmp/buildprop");
+run_program("/tmp/buildprop.sh");
+set_progress(0.750000);
+
+ui_print("- Replacing StopRic script");
+package_extract_file("common/stopric.sh", "/tmp/stopric.sh");
+set_perm(0, 0, 0755, "/tmp/stopric.sh");
+run_program("/tmp/stopric.sh");
+set_progress(0.990000);
+
+ui_print("- Recogiendo la casa :D");
+delete_recursive("/tmp/");
+
+ui_print("- Unmounting system...");
 unmount("/system");
+
 set_progress(1.000000);
-ui_print("All Done!");
-ui_print("Don't forget to hit the thanks button :)");
-ui_print("And please REMEMBER TO WIPE DATA!");
-ui_print("Z5 S.T.Y.L.E. Installed");
+ui_print("Finished!");
+ui_print("Automatically rebooting in 5 seconds");
+run_program("/sbin/busybox", "sleep", "5");
